@@ -12,7 +12,7 @@
   "dependencies": {
     "elysia": "latest",
     "drizzle-orm": "latest",
-    "postgres": "latest"
+    "mysql2": "latest"
   },
   "devDependencies": {
     "@types/bun": "latest",

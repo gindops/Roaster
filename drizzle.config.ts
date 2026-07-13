@@ -1,10 +1,10 @@
 import { defineConfig } from "drizzle-kit";
 
 export default defineConfig({
-  dialect: "postgresql",
+  dialect: "mysql",
   schema: "./src/db/schema.ts",
   out: "./drizzle",
   dbCredentials: {
-    url: process.env.DATABASE_URL || "postgres://postgres:password@localhost:5432/roaster_db",
+    url: process.env.DATABASE_URL || "mysql://root:password@localhost:3306/roaster_db",
   },
 });
